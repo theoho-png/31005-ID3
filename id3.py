@@ -21,7 +21,7 @@ def load(url, name):
 #Spliting the data to training and testing data
 def splitDF(data, size):
     
-    random.seed(0)
+    #random.seed(0)
     #len(df)/100)*size: automatically calculate the number of rows with size%
     #index.tolist() contain all the index of the dataframe
     #random.sample randomly select rows into test_indices
@@ -141,7 +141,7 @@ def createLeaf(data):
     return uniqueClass[count.argmax()]
 
 #Main algorithm
-def decisionTree(df, ml_task = "classification", counter=0, minSample=2, depth=3):
+def decisionTree(df, counter=0, minSample=2, depth=3):
     
     # data preparations
     if counter == 0:

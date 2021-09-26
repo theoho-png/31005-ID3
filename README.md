@@ -1,6 +1,5 @@
-# 31005-ID3
 # Task 2:ID3 Algorithm Implementation
-## 31005 Machine Learning
+### 31005 Machine Learning
 
 Author: Theodora Ho
 Modify Date: 13 October 2020

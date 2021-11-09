@@ -5,7 +5,7 @@ Author: Theodora Ho <br>
 Modify Date: 13 October 2020 <br>
 This package contains the code for an ID3 Decision Tree and its testing files. <br>
 The package uses iris and breast cancer dataset from [UCI Machine Learning Repository](http://archive.ics.uci.edu/). <br>
-To run this package, run the assessment.py. <br>
+To run this package, run the ID3.py. <br>
 1. The file will generate the accuracy of the model in a 80 to 20 split.
 2. The file will determind  the best split, and generate the accuracy of that split.  
 3. The file will generate the accuracy after handling missing data
